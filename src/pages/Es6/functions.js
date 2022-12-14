@@ -75,6 +75,10 @@ const arrowFunctionUnplicit = undefined
 */
 const ArrayMap = undefined
 
+// Félicitation, vous êtes arrivé au bout des ce cours accéléré sur les nouveaux opérateurs
+// Vous comprenez surement mieux les .map, .foreach sur les tableaux
+// Si vous ne connaissez pas, essayez les
+
 //-------------------------- Asynchrone -------------------------------//
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const sleepReject = (ms) => new Promise((resolve, reject) => setTimeout(reject, ms));
@@ -100,6 +104,18 @@ const AsyncReject = undefined;
 
 // Félicitation, vous êtes arrivé au bout 
 // Pendant que les autres terminent, regardez du coté de Promise.all et Promise.any pour parrallèliser les appels asynchrone
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
