@@ -98,6 +98,30 @@ const AsyncSuccess = undefined;
 */
 const AsyncReject = undefined;
 
+// Félicitation, vous êtes arrivé au bout 
+// Pendant que les autres terminent, regardez du coté de Promise.all et Promise.any pour parrallèliser les appels asynchrone
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 export {
   howToStart,
   objectCopy,
