@@ -68,6 +68,13 @@ const arrowFunctionExplicit = undefined
 */
 const arrowFunctionUnplicit = undefined
 
+//-------------------------- array operations -------------------------------//
+/*
+  Renvoi un tableau qui incremente chacun des élément du tableau passé en paramètre
+  utilisez .map
+*/
+const ArrayMap = undefined
+
 //-------------------------- Asynchrone -------------------------------//
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const sleepReject = (ms) => new Promise((resolve, reject) => setTimeout(reject, ms));
@@ -102,6 +109,7 @@ export {
   arrayExtract,
   arrowFunctionExplicit,
   arrowFunctionUnplicit,
+  ArrayMap,
   AsyncSuccess,
   AsyncReject
 };

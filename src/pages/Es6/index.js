@@ -12,6 +12,7 @@ import {
   arrayExtract,
   arrowFunctionExplicit,
   arrowFunctionUnplicit,
+  ArrayMap,
   AsyncSuccess,
   AsyncReject
 } from './functions';
@@ -32,6 +33,7 @@ const questions = [
   {title: "arrayExtract", execute: arrayExtract, param1: [1, 2], answer: 2},
   {title: "arrowFunctionExplicit", execute: arrowFunctionExplicit, param1: true, answer: "success"},
   {title: "arrowFunctionUnplicit", execute: arrowFunctionUnplicit, param1: true, answer: "success"},
+  {title: "ArrayMap", execute: ArrayMap, param1: [1, 2, 3], answer: [2, 3, 4]},
   {title: "AsyncSuccess", execute: AsyncSuccess, answer: "success"},
   {title: "AsyncReject", execute: AsyncReject, answer: "failed"},
 ]
